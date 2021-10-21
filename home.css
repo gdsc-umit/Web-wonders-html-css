@@ -1,0 +1,91 @@
+@font-face {
+    font-family: script;
+    src: url("../Web-wonders-html-css/Media/RomancesScriptFont-j2ql.ttf");
+}
+.main{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height:30vh;
+    width: 100vw;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bottom{
+    height:70vh;
+    width: 100vw;
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.information{
+    height:70vh;
+    width: 50vw;
+    /* background-color: rgb(218, 191, 191);  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    height:70vh;
+    width: 50vw;
+    /* background-color: rgb(243, 250, 176);  */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    display: flex;
+    margin: 5vh 5vw;
+    height:60vh;
+    justify-content: center;
+    align-items: center;
+}
+.nameshadow{
+    display: flex;
+    color:#c84c3c57;
+    opacity: 30;
+    font-size:20vh;
+    
+    /* height:0vh; */
+    /* width: 0vw; */
+}
+.information{
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    color:#689775;
+    /* background-color: rgb(212, 228, 68); */
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    display: flex;
+    color:#689775;
+    font-size:20vh;
+    position: absolute;
+    font-family: script;
+    /* word-spacing: 20vw; */
+    letter-spacing: 5px;
+    margin-top: 20vh;
+    position:absolute;
+}
+body{
+    margin: 0;
+}
